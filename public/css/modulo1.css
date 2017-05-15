@@ -1,0 +1,259 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo1{
+    background-color: #f7c80b;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+#container-modulo1 .menu-section{
+    min-height: 100px;
+    background-color: transparent;
+    float: left;
+    height: auto;
+    z-index: 10;
+    width: 100%;
+}
+
+#container-modulo1 .marca{
+    float:left;
+    font-size: 36px;
+    text-transform: full-width;
+    font-weight: bold;
+    padding-left:100px;
+    line-height: 100px;
+    color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#container-modulo1 .navbar-nav li a {
+    line-height: 100px;
+    color: #FFFFFF;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#container-modulo1 .logo{
+    max-height: 100px;
+    padding: 15px;
+}
+#container-modulo1 .padleft0{
+    padding-left: 0!important;
+}
+#container-modulo1 .padright0{
+    padding-right: 0!important;
+}
+#container-modulo1 .cabecera{
+    /*padding-top: 2%;
+    padding-bottom: 2%;*/
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 11;
+}
+#container-modulo1 .imagen{
+    align-content: center;
+}
+#container-modulo1 .imagen img{
+    width: 100% !important;
+}
+#container-modulo1 .ultext{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#container-modulo1 ul{
+   padding-right: 3%;
+}
+#container-modulo1 .contenido{
+    vertical-align: middle;
+    margin-top:10%;
+    min-height: 100%;
+    height: 100%;
+    padding-right: 6%;
+
+}
+#container-modulo1 .titulo{
+    font-size: 60px;
+    text-transform: full-width;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 80px;
+    letter-spacing: -4px;
+}
+#container-modulo1 .parrafo{
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 27px;
+}
+#container-modulo1 .subtitulo{
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#container-modulo1 .texto{
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 19px;
+}
+#container-modulo1 .navbar-header [class*="icon-bar"] {
+    background-color: #FFFFFF;
+
+}
+#container-modulo1 .navbar-nav li a:hover {
+    color: black;
+    background: none;
+}
+#container-modulo1 .navbar-nav li a:focus {
+    background: none;
+}
+#container-modulo1 .navbar-nav li a:active {
+    background: none;
+}
+@media (max-width: 767px) {
+    #container-modulo1 #bs-navbar {
+        padding: 0;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    #container-modulo1 .navbar-nav > li > a {
+        padding: 0;
+    }
+    #container-modulo1 .navbar-nav {
+        margin-top: 15px!important;
+    }
+}
+@media (min-width: 768px) {
+
+    #container-modulo1 .navbar-nav > li > a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #container-modulo1 .navbar-nav {
+        /*Antes era 0*/
+        margin-top: 50px;
+    }
+    #container-modulo1 .espacio {
+        height: 20px;
+    }
+    #container-modulo1 .menu-toggle {
+        padding-top: 20px;
+    }
+    #container-modulo1 .navbar-brand  {
+        height: 100px;
+    }
+}
+@media (max-width: 767px) {
+    #container-modulo1 .marca {
+        font-size: 30px;
+        padding-left:50px;
+        line-height: 50px;
+    }
+    #container-modulo1 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo1 .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 0;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    #container-modulo1 .contenido {
+        vertical-align: middle;
+        margin-top: 10px;
+    }
+    #container-modulo1 .titulo {
+        margin-bottom: 10px;
+        text-align: left;
+        margin-top: 40px;
+        font-size: 50px;
+    }
+    #container-modulo1 .parrafo {
+        margin-right: 0;
+        margin-bottom: 16px;
+        text-align: left;
+        font-size: 16px;
+        margin-top: -30px;
+    }
+    #container-modulo1 .subtitulo {
+        text-align: left;
+    }
+    #container-modulo1 .texto {
+        text-align: left;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    #container-modulo1 .imagen {
+        display: block;
+        margin:0 auto 0 auto;
+        width: 80%;
+    }
+    #container-modulo1 .piebottom {
+      height: 20px;
+    }
+    #container-modulo1 .logo{
+        max-width: 160px;
+        max-height: 75px;
+        padding: 0;
+    }
+    #container-modulo1 .espacio {
+        height: 15px;
+    }
+    #container-modulo1 .menu-toggle {
+        padding-top: 15px;
+    }
+
+}
+@media (max-width: 992px) and  (min-width: 768px){
+    #container-modulo1 .contenido {
+        vertical-align: middle;
+        margin-top: 0;
+    }
+    #container-modulo1 .titulo {
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+    #container-modulo1 .parrafo {
+        margin-right: 0;
+        margin-bottom: 30px;
+        font-size: 16px;
+        margin-top: -30px;
+    }
+    #container-modulo1 .texto{
+        margin-right: 50px;
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+    #container-modulo1 .imagen {
+        display: block;
+        margin:0 auto 0 auto;
+
+    }
+    #container-modulo1 .imagen img{
+        height: 100%;
+    }
+    #container-modulo1 .logo{
+        max-width: 200px;
+        max-height: 101px;
+    }
+    #container-modulo1 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo1 .marca {
+        line-height: 50px;
+    }
+
+}

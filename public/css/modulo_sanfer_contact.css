@@ -1,0 +1,184 @@
+#container-modulo_sanfer_contact .parasanfer{
+    display: none !important;
+}
+#container-modulo_sanfer_contact{
+    background-color: #233f88;
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_sanfer_contact .contenido{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#container-modulo_sanfer_contact .titulo{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+#container-modulo_sanfer_contact .parrafo{
+    color: #FFFFFF;
+    font-family: 'ClanPro-News', sans-serif!important;
+    font-size: 10px;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 12px;
+    margin-top: -20px;
+}
+#container-modulo_sanfer_contact .contacto{
+    margin-top: 9%;
+    margin-bottom: 50px
+}
+#container-modulo_sanfer_contact .titulo-tab{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: left;
+}
+#container-modulo_sanfer_contact .formulario-sanfer{
+    background-color: #848484;
+    padding: 20px;
+}
+#container-modulo_sanfer_contact .formulario-inputs{
+    padding: 50px;
+}
+#container-modulo_sanfer_contact .nav-tabs li{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 0;
+}
+#container-modulo_sanfer_contact .nav-tabs li> a{
+    text-align: center;
+}
+#container-modulo_sanfer_contact .nav-tabs>li.active>a{
+    background-color: #848484;
+    border: 0;
+}
+#container-modulo_sanfer_contact .nav-tabs>li.active{
+    background-color: #848484;
+}
+#container-modulo_sanfer_contact .tab-content>.active{
+    background-color: #848484;
+}
+#container-modulo_sanfer_contact .tab-pane{
+    padding: 50px;
+}
+#container-modulo_sanfer_contact .sanfer-input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+#container-modulo_sanfer_contact .agree-checkbox{
+
+}
+#container-modulo_sanfer_contact .alert{
+    border-color: white;
+    color: white;
+}
+#container-modulo_sanfer_contact .enviarformcontacto{
+    border: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #233f88;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#container-modulo_sanfer_contact .formulario-inputs textarea{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+#container-modulo_sanfer_contact .nav-tabs {
+    border-bottom: 1px solid #848484!important;
+}
+#container-modulo_sanfer_contact .logo{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+#container-modulo_sanfer_contact .footer{
+    padding: 0 10% 0 10%;
+    background-color: #FFFFFF;
+}
+#agree-modal .modal-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: left;
+}
+#agree-modal .modal-body{
+    padding: 20px;
+}
+#agree-modal .modal-body p{
+    color: grey;
+    font-size: 14px;
+    font-family: 'ClanPro-News', sans-serif!important;
+    text-align: justify;
+    line-height: 16px;
+}
+#agree-modal .modal-header{
+    background-color: #233f88;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+#agree-modal .modal-header button{
+    background: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    color: #233f88;
+    font-size: 25px;
+    line-height: 28px;
+}
+@media (max-width: 981px)
+{
+    #container-modulo_sanfer_contact .footer{
+        padding: 0;
+    }
+}
+@media (max-width: 767px)
+{
+   #container-modulo_sanfer_contact .titulo-tab{
+       font-size: 15px;
+   }
+    #container-modulo_sanfer_contact .tab-pane {
+        padding: 20px;
+    }
+    #container-modulo_sanfer_contact .formulario-inputs{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+@media (max-width: 400px) and (min-width: 371px){
+    #container-modulo_sanfer_contact .nav-tabs li> a {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 370px){
+    #container-modulo_sanfer_contact .nav-tabs li> a {
+        padding: 5px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 270px){
+    #container-modulo_sanfer_contact .titulo{
+        font-size: 20px;
+    }
+    #container-modulo_sanfer_contact .nav-tabs li {
+        width: 100%;
+    }
+}

@@ -1,0 +1,113 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+
+#container-modulo_contact4a{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_contact4a .maps iframe{
+    pointer-events: none;
+}
+#container-modulo_contact4a .container{
+    width: 100% !important;
+    padding: 0 !important;
+}
+#container-modulo_contact4a .contacto{
+    padding-top: 5%;
+}
+#container-modulo_contact4a .titulo{
+    color: #000000;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#container-modulo_contact4a .subtitulo{
+    color: #a8acb9;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: -20px;
+    padding-top: 5%;
+}
+#container-modulo_contact4a .parrafo{
+    color: #4f5362;
+    font-size: 16px;
+    text-align: center;
+    white-space: pre-line;
+    line-height: 24px;
+    padding-bottom: 3%;
+}
+#container-modulo_contact4a .division{
+    margin-right: 23%;
+    margin-left: 23%;
+
+    border-bottom: 3px solid #000000;
+}
+#container-modulo_contact4a .googlemaps{
+    align-content: center;
+    padding-right: 0;
+    horiz-align: center;
+    height: 100%;
+    padding-left: 0;
+}
+#container-modulo2 .googlemaps img{
+    height: 100%;
+    margin: 0;
+}
+#container-modulo_contact4a .height100vh{
+    height: 100vh;
+}
+@media (max-width: 260px){
+
+    #container-modulo_contact4a .titulo{
+        font-size: 30px;
+    }
+    #container-modulo_contact4a .subtitulo{
+        font-size: 11px;
+    }
+    #container-modulo_contact4a .parrafo{
+        font-size: 12px;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #container-modulo_contact4a .height100vh{
+        height: 400px;
+    }
+
+}
+@media (max-width: 364px) and (min-width: 261px){
+
+    #container-modulo_contact4a .titulo{
+        font-size: 35px;
+    }
+    #container-modulo_contact4a .subtitulo{
+        font-size: 11px;
+    }
+    #container-modulo_contact4a .parrafo{
+        font-size: 14px;
+    }
+    #container-modulo_contact4a .height100vh{
+        height: 400px;
+    }
+
+}
+@media (max-width: 768px) and (min-width: 365px){
+    #container-modulo_contact4a .titulo{
+        font-size: 35px;
+    }
+    #container-modulo_contact4a .subtitulo{
+        font-size: 11px;
+    }
+    #container-modulo_contact4a .parrafo{
+        font-size: 14px;
+    }
+    #container-modulo_contact4a .height100vh{
+        height: 400px;
+    }
+}

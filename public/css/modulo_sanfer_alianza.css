@@ -1,0 +1,308 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo_sanfer_alianza .carousel-control .flecha{
+    display:none;
+}
+
+#container-modulo_sanfer_alianza{
+    margin: 0;
+    width: 100%;
+    /*position: relative;*/
+}
+#container-modulo_sanfer_alianza .container{
+    position: relative;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#container-modulo_sanfer_alianza .contenido{
+    margin: 5% 15% 5% 15%;
+}
+#container-modulo_sanfer_alianza .titulo {
+    color: #233f88;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+}
+#container-modulo_sanfer_alianza .titulo:after{
+    /*content: url("../img/rayita-roja.png");*/
+}
+#container-modulo_sanfer_alianza .carousel-control:hover{
+    background-color: white;
+}
+#container-modulo_sanfer_alianza .carousel-control{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0!important;
+    background: none !important;
+    filter: none !important;
+    progid: none !important;
+    opacity: 0.8 !important;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    margin-top: -22px;
+}
+
+#container-modulo_sanfer_alianza .carousel-control.right {
+    right: 60px;
+    left: auto;
+}
+
+#container-modulo_sanfer_alianza .item-nombre {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2f2f2f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+#container-modulo_sanfer_alianza .texto {
+    text-align: center;
+    font-size: 13px;
+    color: #656b6f;
+}
+#container-modulo_sanfer_alianza .detalle1 {
+    text-align: center;
+    font-size: 13px;
+    color: #656b6f;
+}
+#container-modulo_sanfer_alianza .box-flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex; 
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: stretch;
+    -ms-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch; 
+    -webkit-align-items: stretch;
+    -ms-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+}
+#container-modulo_sanfer_alianza .item-flex{
+    display: -webkit-box;
+}
+@media (min-width: 768px){
+    #container-modulo_sanfer_alianza .carousel{
+        padding: 50px 120px 50px 120px;
+    }
+}
+@media (max-width: 767px){
+    #container-modulo_sanfer_alianza .carousel{
+        padding: 25px 60px 25px 60px;
+    }
+}
+
+@media (max-width: 179px) {
+
+    #container-modulo_sanfer_alianza .carousel-control{
+        left: 5px;
+    }
+    #container-modulo_sanfer_alianza .carousel-control.right {
+        right: 5px;
+        left: auto;
+    }
+    #container-modulo_sanfer_alianza .carousel-control img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
+@media (max-width: 260px) and (min-width: 180px) {
+
+    #container-modulo_sanfer_alianza .carousel-control{
+        left: 5px;
+    }
+    #container-modulo_sanfer_alianza .carousel-control.right {
+        right: 5px;
+        left: auto;
+    }
+    #container-modulo_sanfer_alianza .carousel-control img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
+@media (max-width: 360px) and (min-width: 261px) {
+
+    #container-modulo_sanfer_alianza .carousel-control{
+        left: 5px;
+    }
+    #container-modulo_sanfer_alianza .carousel-control.right {
+        right: 5px;
+        left: auto;
+    }
+    #container-modulo_sanfer_alianza .carousel-control img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+}
+@media (max-width: 500px) and (min-width: 361px) {
+
+    #container-modulo_sanfer_alianza .carousel-control{
+        left: 5px;
+    }
+    #container-modulo_sanfer_alianza .carousel-control.right {
+        right: 5px;
+        left: auto;
+    }
+    #container-modulo_sanfer_alianza .carousel-control img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+}
+@media (max-width: 767px) and (min-width: 501px){
+    #container-modulo_sanfer_alianza .carousel-control{
+        left: 20px;
+    }
+    #container-modulo_sanfer_alianza .carousel-control.right {
+        right: 20px;
+        left: auto;
+    }
+    #container-modulo_sanfer_alianza .carousel-control img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+}
+@media (max-width: 992px) and  (min-width: 768px){
+
+    #container-modulo_sanfer_alianza .carousel-control{
+        position: absolute;
+        left: 30px;
+    }
+    #container-modulo_sanfer_alianza .carousel-control.right {
+        right: 30px;
+        left: auto;
+    }
+
+
+}
+@media (max-width: 767px) {
+    #container-modulo_sanfer_alianza .container{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}
+@media (max-width: 270px){
+    #container-modulo_sanfer_alianza .titulo{
+        font-size: 20px;
+    }
+}
+
+.carousel-showmanymoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+.carousel-showmanymoveone .carousel-control.left {
+  margin-left: 15px;
+}
+.carousel-showmanymoveone .carousel-control.right {
+  margin-right: 15px;
+}
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3 {
+  display: none;
+}
+@media all and (min-width: 768px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+    display: block;
+  }
+}
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(50%, 0, 0);
+            transform: translate3d(50%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+@media all and (min-width: 992px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -25%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 25%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+    display: block;
+  }
+}
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}

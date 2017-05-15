@@ -1,0 +1,33 @@
+#container-modulo_c_postula{
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+#container-modulo_c_postula .titulo{
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-shadow: -1px 2px 3px rgba(150, 150, 150, 1);
+}
+#container-modulo_c_postula .parrafo{
+    line-height: 24px;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    text-shadow: -1px 2px 3px rgba(150, 150, 150, 1);
+}
+#container-modulo_c_postula .linkareferencia{
+    line-height: 24px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 20px 12px 20px;
+    font-weight: bold;
+    -webkit-box-shadow:-9px 7px 33px -12px rgba(0,0,0,1);
+    -moz-box-shadow: -9px 7px 33px -12px rgba(0,0,0,1);
+    box-shadow: -9px 7px 33px -12px rgba(0,0,0,1);
+}
+#container-modulo_c_postula .fila{
+    margin-top: 100px;
+}
+#container-modulo_c_postula .img-responsive{
+    width: 100%;
+}

@@ -1,0 +1,210 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo_f4{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_f4 .container{
+    width: 100% !important;
+    padding: 0 !important;
+}
+#container-modulo_f4 .titulo{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 3%;
+}
+#container-modulo_f4 .subtitulo{
+    color: #cfcfd1;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 30px;
+
+}
+#container-modulo_f4 .parrafo{
+    color: #cfcfd1;
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+#container-modulo_f4 .division{
+    border-top: 2px solid #cfcfd1;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#container-modulo_f4 .encabezado{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+#container-modulo_f4 .twitter-container{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#container-modulo_f4 .instagram-container{
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 3%;
+    height: auto;
+}
+#container-modulo_f4 .instagram-container img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+#container-modulo_f4 .instagram-container a{
+    height: 80px;
+    width: 80px;
+    margin: 7px;
+}
+#container-modulo_f4 .inner-addon {
+    position: relative;
+}
+
+#container-modulo_f4 .inner-addon .fa {
+    position: absolute;
+    padding: 13px;
+    pointer-events: none;
+}
+
+#container-modulo_f4 .left-addon .fa {
+    left:  0;
+    color: white;
+}
+#container-modulo_f4 .left-addon input  { padding-left:  35px; }
+
+#container-modulo_f4 .inputrounded{
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    color: #FFFFFF;
+    width: 100%;
+    background-color: transparent;
+    background-image: url('../img/input-opacidad.png');
+    font-size: 14px;
+}
+
+#container-modulo_f4 .btn-rounded{
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    color: #FFFFFF;
+    width: 30%;
+    background-color: #4051eb;
+    font-size: 14px;
+}
+#container-modulo_f4 .logo{
+    padding-right: 0;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+#container-modulo_f4 .logo img{
+    width: 200px;
+}
+#container-modulo_f4 .footer{
+    margin: 0 auto;
+    color: #c0c0c0;
+    padding-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+#container-modulo_f4 .social [class*="fa fa-"] {
+    background-color: transparent;
+    color: #a8acb7;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+#container-modulo_f4 .social [class*="fa fa-"]:hover {
+    background: none;
+    color: #000;
+    text-decoration:none;
+}
+#container-modulo_f4 .redes-sociales {
+    text-align: center;
+}
+#container-modulo_f4 .cuerpo{
+    margin-left: 0 !important;
+    text-align: center;
+    margin-right: 0;
+}
+/*#container-modulo_f4 .lista-redes-sociales-f4 li {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+}*/
+#container-modulo_f4 .lista-redes-sociales-f4 {
+    display: table;
+    width: 100%;
+    background-color: white;
+}
+#container-modulo_f4 .lista-redes-sociales-f4 li {
+    display: table-cell;
+}
+#container-modulo_f4 .lista-redes-sociales-f4 a {
+    display: block;
+    border: 1px solid lightgrey;
+    text-align: center;
+    margin: 0;
+}
+
+#container-modulo_f4 .navbar .navbar-collapse {
+    text-align: center;
+}
+#container-modulo_f4 .navbar-nav > li > a:hover {
+    background: none;
+    color: #6f6f6f;
+}
+#container-modulo_f4 .navbar-nav > li > a:focus {
+    background: none;
+}
+#container-modulo_f4 .navbar-nav > li > a:active {
+    background: none;
+}
+#container-modulo_f4 .navbar-nav > li > a{
+    color: #cfcfd1;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#container-modulo_f4 .piecabecera{
+    /*padding-left:3%;
+    padding-right: 10%;*/
+    background-color: transparent;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+#container-modulo_f4 .logo img{
+    width: 200px;
+}
+
+@media (min-width: 768px){
+    #container-modulo_f4 .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+    #container-modulo_f4 .navbar-nav > li > a {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (max-width: 767px){
+    #container-modulo_f4 .division{
+        display: none;
+    }
+}

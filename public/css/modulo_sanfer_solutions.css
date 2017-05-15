@@ -1,0 +1,73 @@
+#container-modulo_sanfer_solutions{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_sanfer_solutions .contenido{
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+#container-modulo_sanfer_solutions .titulo{
+    /*color: white;*/
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+    margin-bottom: 6%;
+}
+#container-modulo_sanfer_solutions .parrafo{
+    /*color: white;*/
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: left;
+    line-height: 16px;
+    white-space: pre-line;
+}
+#container-modulo_sanfer_solutions .obj-link{
+    border-radius: 50%;
+    background-color: #233f88;
+    padding: 15px;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    display: table;
+
+}
+#container-modulo_sanfer_solutions .link{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#container-modulo_sanfer_solutions .link img{
+    margin-bottom: 5px;
+}
+#container-modulo_sanfer_solutions .iconos-link{
+   margin-top: 7%;
+}
+#container-modulo_sanfer_solutions .titulo-link{
+    color: #FFFFFF;
+    font-family: 'ClanPro-News', sans-serif!important;
+    font-size: 16px;
+    text-align: center;
+}
+@media (max-width: 767px){
+    #container-modulo_sanfer_solutions .categ-negocio{
+        margin-bottom: 15px;
+    }
+    #container-modulo_sanfer_solutions .contenido{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 270px){
+    #container-modulo_sanfer_solutions .titulo{
+        font-size: 20px;
+    }
+    #container-modulo_sanfer_solutions .parrafo{
+        font-size: 15px;
+    }
+    #container-modulo_sanfer_solutions .obj-link {
+        height: 150px;
+        width: 150px;
+    }
+    #container-modulo_sanfer_solutions .iconos-link{
+       padding: 0;
+    }
+}

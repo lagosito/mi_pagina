@@ -1,0 +1,604 @@
+.salir{
+	top: 9px;
+    border: none;
+    outline: 0;
+    padding: 8px 0;
+    margin-left: 15px;
+    position: relative;
+    background: #45b6af;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    width: 35px;
+    height: 35px;
+    color:#fff;
+}
+.salir i{
+	margin: 0 10px;
+}
+.separacion{
+    clear: both;
+    margin-top: 20px;
+}
+.checked img {border:solid 3px skyblue;
+    margin: -2px 0 0 -2px;
+}
+.nomostrar{
+    display: none;
+}
+
+.imgwidth{
+    width: 100%;
+}
+
+
+.btn-file {
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    right:40px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 1);
+    border:1px solid white!important;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+
+}
+.btn-openfile-logo {
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    right:40px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 1);
+    border:1px solid white!important;
+}
+
+.btn-openfile-logo input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+
+}
+.btn-files {
+    overflow: hidden;
+    bottom:0;
+    right:0;
+    font-size: 15px;
+    width: 35px;
+    position: relative;
+    cursor: pointer!important;
+}
+.btn-files input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: pointer!important;
+    display: block;
+
+}
+.btn-files:after {
+    width: 50px!important;
+}
+.btn-files:hover {
+    cursor: pointer!important;
+}
+.btn-file-logo {
+    overflow: hidden;
+    border-radius:50%;
+    position:absolute;
+    right:inherit;
+    bottom: 0;
+    z-index: 2;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.btn-file-logo input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+    border-radius: 50%;
+
+}
+.btn-file-logo:hover {
+   color: grey;
+    background-color: black;
+}
+.imagethumb{
+    display:inline-block;
+    position:relative;
+    border: 1px solid lightgrey;
+}
+.resaltado{
+    font-weight: bold;
+}
+.editar-imagen {
+    overflow: hidden;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+
+}
+.editar-imagen:hover , .editar-imagen-rayos:hover, .edit-img-logros:hover{
+    color: grey!important;
+
+}
+.editar-imagen-rayos, .edit-img-logros {
+    overflow: hidden;
+    border-radius:50%!important;
+    position:absolute!important;
+    bottom:0;
+    right:0;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6)!important;
+    color: #FFFFFF!important;
+
+}
+.editar-pencil {
+    overflow: hidden;
+    border-radius:50%!important;
+    position:absolute!important;
+    bottom:0;
+    right:0;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 20px!important;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6)!important;
+    color: #FFFFFF!important;
+
+}
+.btn-file-slider, .btn-file-rayo, .btn-file-default {
+    overflow: hidden;
+    position:absolute;
+    bottom:5px;
+    right:3px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+    border-radius: 50%;
+}
+
+.btn-file-slider input[type=file], .btn-file-rayo input[type=file], .btn-file-default input[type=file]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.btn-file-slider:hover , .btn-file-rayo:hover, .btn-file-default:hover{
+    color: lightgrey;
+    background-color: rgba(0,0,0,1);
+}
+.btn-delete-slider, .btn-remove-selected-fileslider,.btn-delete-sliderimg-texto {
+    overflow: hidden;
+    position:absolute;
+    bottom:5px;
+    left:3px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+    border-radius: 50%;
+}
+.btn-delete-slider:hover, .btn-remove-selected-fileslider:hover, .btn-delete-sliderimg-texto:hover {
+    background-color: darkred;
+}
+.btn-file-item-slider , .btn-file-noticia-slider{
+    overflow: hidden;
+    position:absolute;
+    bottom:5px;
+    right:3px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+    border-radius: 50%;
+}
+
+.btn-file-item-slider input[type=file], .btn-file-noticia-slider input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.btn-file-item-slider:hover , .btn-file-noticia-slider:hover{
+    color: lightgrey;
+    background-color: rgba(0,0,0,1);
+}
+.btn-delete-item-slider, .btn-remove-selected-galeria-slider, .btn-delete-noticia-slider, .btn-remove-selected-noticia-slider {
+    overflow: hidden;
+    position:absolute;
+    bottom:5px;
+    left:3px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+    border-radius: 50%;
+    font-weight: normal;
+}
+.btn-delete-item-slider:hover, .btn-remove-selected-galeria-slider:hover, .btn-delete-noticia-slider:hover,
+.btn-remove-selected-noticia-slider:hover{
+    background-color: darkred;
+}
+#editarGaleriaItem .itemname{
+    margin:60px 0;
+    text-align:center;
+
+}
+#editarGaleriaItem .atributospops p {
+    /*padding: 10px 0px;
+    margin-left: 40px;*/
+    color:#a3a3a3;
+    font-size:14px;
+    line-height: 20px;
+}
+#editarGaleriaItem .atributospops span {
+    color:#000;
+    font-size:16px;
+
+}
+#editarGaleriaItem .atributo {
+    text-align: left;
+    padding-bottom: 15px;
+}
+#editarGaleriaItem .atributospops {
+
+}
+.input-blue{
+    border: 0;
+    border-bottom: 1px dashed blue;
+    background-color: transparent!important;
+}
+.txt-white{
+   color:white;
+}
+#container-modulo_h3 .fixed-scroll .logo {
+    height: 70px !important;
+}
+#container-modulo_h3 .fixed-scroll ul{
+   margin-top: -15px !important; 
+}
+#container-modulo_h3 .fixed-scroll .redes-sociales{
+    margin-top: -15px !important;
+}
+@media (min-width: 1200px){
+    .modal-lg-edit-galeria{
+        width: 1100px;
+        vertical-align: middle;
+    }
+}
+@media (min-width: 768px){
+    #addGaleriaTab{
+        text-align: center;
+        padding: 0!important;
+    }
+
+    #addGaleriaTab:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    #addGaleriaTab .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .fixed {
+        position: fixed;
+        top: 0
+    }
+    .fixed .social-header-absolute-right {
+        top: 30px;
+    }
+    .fixed .social-header-absolute-left {
+        top: 30px;
+    }
+
+    .fixed-scroll{
+        min-height: 70px !important;
+        background: rgba(1,1,1,0.6) !important;
+        color: #FFFFFF!important;
+    }
+    .marcawhite{
+        color: #FFFFFF!important;
+    }
+    .fixed-scroll .navbwhite{
+        color: #FFFFFF!important;
+    }
+}
+.nomostrar2{
+    display: none;
+}
+.addGaleriaItemdetalle{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.addGaleriaItemdetalle:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.addSliderimg{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.addSliderimg:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none!important;
+}
+.addSliderimg:active {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none!important;
+}
+.addSliderimg:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none!important;
+}
+.editable-submit:hover{
+    background-color: #215c91 !important;
+}
+.editable-cancel:hover{
+    background-color: darkgrey!important;
+}
+.imagethumbslider{
+    margin-bottom: 15px;
+    display:inline-block;
+    position:relative;
+}
+.imagethumbslider img{
+    border: 1px solid lightgrey;
+}
+.input-url{
+    border: 0;
+    border-bottom: 1px solid darkblue;
+    margin-right: 5px;
+    border-radius: 0;
+}
+.edit-google-map {
+    overflow: hidden;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+
+}
+.edit-google-map:hover {
+    color: grey;
+
+}
+.btn-remove-imagen-modulo {
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    right:45px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+    border-radius: 50%;
+}
+.btn-remove-imagen-modulo:hover {
+    background-color: darkred;
+}
+
+.thumb-item-galeria{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.image-thumb-item-slider img{
+    width: 100%;
+}
+.thumb-noticia{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.image-thumb-noticia-slider img{
+    width: 100%;
+}
+.btn-file-curso, .btn-file-upload {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+}
+.btn-file-curso:hover, .btn-file-upload:hover {
+    background-color: grey;
+}
+.btn-file-curso input[type=file], .btn-file-upload input[type=file]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.input-group-btn.pdf-curso, .input-group-btn.file-upload {
+    vertical-align: middle;
+    display: table-cell;
+    width: 1%;
+
+}
+ .btn-fondo-curso {
+    overflow: hidden;
+    position:absolute;
+    bottom:5px;
+    right:3px;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+}
+
+.btn-fondo-curso input[type=file]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.btn-fondo-curso:hover{
+    color: lightgrey;
+    background-color: rgba(0,0,0,1);
+}
+.editable-wysihtml5 h1{
+    font-size: 36px;
+}
+.editable-wysihtml5 h2{
+    font-size: 30px;
+}
+.editable-wysihtml5 h3{
+    font-size: 24px;
+}
+.editable-wysihtml5 h4{
+    font-size: 18px;
+}
+.editable-wysihtml5 h5{
+    font-size: 14px;
+}
+.editable-wysihtml5 h6{
+    font-size: 12px;
+}
+/* modal iframe place all wiew port */
+#modalIframe{
+    width: 100%;
+    height: 100vh;
+}
+#modalIframe .modal-dialog{
+    width: 101%;
+    height: 100vh;
+    margin: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#modalIframe .modal-content{
+    width: 100%;
+    height: 100%;
+}
+#modalIframe .modal-body{
+    width: 100%;
+    height: 100%;
+}
+

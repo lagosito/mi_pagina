@@ -1,0 +1,51 @@
+
+#container-modulo_c_logros{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_c_logros .contenido{
+    margin: 0;
+    width: 100%;
+
+}
+#container-modulo_c_logros .container{
+    padding: 12% 0 12% 0;
+    width: 100%;
+    height: auto;
+}
+
+#container-modulo_c_logros .imagen{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#container-modulo_c_logros .imagenl{
+    /*margin-top: 30px;
+    margin-left: 30px;*/
+}
+#container-modulo_c_logros .titulo{
+    margin-left: 40px;
+    color: #fbae00;
+    letter-spacing: 0;
+    font-family: 'ReneBiederBold', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+@media (max-width: 767px) and (min-width: 621px) {
+    #container-modulo_c_logros .imagen{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 470px) {
+    #container-modulo_c_logros .imagenl{
+        margin-top: 30px;
+
+    }
+}
+@media (max-width: 800px) {
+    #container-modulo_c_logros .titulo {
+        margin-left: 0;
+    }
+}
+

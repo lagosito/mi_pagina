@@ -1,0 +1,19 @@
+#container-modulo_c_textowysihtml{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_c_textowysihtml .container{
+    width: 100% !important;
+    padding: 0 !important;
+
+}
+#container-modulo_c_textowysihtml .contenido{
+    padding: 100px 0 100px 0;
+}
+#container-modulo_c_textowysihtml .editable-wysihtml5{
+	width: 100%;
+	height: 100%;
+}
+#container-modulo_c_textowysihtml br{
+	line-height: 200%;
+}

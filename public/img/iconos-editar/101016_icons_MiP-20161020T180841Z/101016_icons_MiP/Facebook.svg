@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="512" height="512"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#A5A5A5" d="M274.6,368.6V256h33.3l4.4-38.8h-37.7
+		l0.1-19.4c0-10.1,1-15.6,16.6-15.6h20.8v-38.8h-33.3c-40,0-54.1,18.8-54.1,50.5v23.3h-25V256h25v112.6H274.6z M256,481.3
+		c124.4,0,225.3-100.9,225.3-225.3S380.4,30.7,256,30.7S30.7,131.6,30.7,256S131.6,481.3,256,481.3z M256,512
+		c141.4,0,256-114.6,256-256S397.4,0,256,0S0,114.6,0,256S114.6,512,256,512z"/>
+</g>
+</svg>

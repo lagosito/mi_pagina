@@ -1,0 +1,102 @@
+#container-modulo_c_rayos{
+    margin: 0;
+    width: 100%;
+}
+
+#container-modulo_c_rayos .container{
+    padding: 0;
+    width: 100%;
+    height:100%;
+    padding-bottom: 5%;
+}
+
+#container-modulo_c_rayos .fondo{
+    background-color: white;
+    height: 100%;
+}
+
+#container-modulo_c_rayos .margen{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#container-modulo_c_rayos .negrita{
+    color: black;
+    font-weight: 900;
+}
+
+#container-modulo_c_rayos .titulo{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color: black;
+    font-weight: 900;
+    padding-left: 5%;
+    font-family: GilroyBold, sans-serif;
+
+}
+#container-modulo_c_rayos .subtitulo-item{
+    font-size: 25px;
+    line-height: 35px;
+    font-family: GilroyBold, sans-serif;
+    color: #b63a2e;
+    float:left;
+}
+#container-modulo_c_rayos .textos{
+    padding-left: 5%;
+}
+#container-modulo_c_rayos .frases{
+    margin-bottom: 25px;
+    padding-left: 5%;
+}
+#container-modulo_c_rayos .texto-light{
+    font-size: 25px;
+    line-height: 35px;
+    font-family: GilroyLight, sans-serif;
+}
+#container-modulo_c_rayos .texto-bold{
+    font-size: 25px;
+    line-height: 35px;
+    font-family: GilroyBold, sans-serif;
+}
+#container-modulo_c_rayos .img-check-rayo{
+    width: 40px;
+    float:left;
+    margin-right: 15px;
+}
+#container-modulo_c_rayos .linea{
+    border-top: 2px solid #b63a2e;
+    display: block;
+}
+@media (max-width: 991px) and (min-width: 431px){
+    #container-modulo_c_rayos .subtitulo-item{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #container-modulo_c_rayos .parrafo{
+        margin: 0;
+    }
+}
+@media (max-width: 430px){
+    #container-modulo_c_rayos .subtitulo-item{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #container-modulo_c_rayos .parrafo{
+        margin: 0;
+    }
+}
+@media (max-width: 319px){
+    #container-modulo_c_rayos .img-check-rayo {
+        width: 20px;
+        margin-right: 10px;
+    }
+    #container-modulo_c_rayos .subtitulo-item {
+        font-size: 14px;
+    }
+    #container-modulo_c_rayos .texto-light {
+        font-size: 20px;
+    }
+    #container-modulo_c_rayos .texto-bold {
+        font-size: 20px;
+    }
+}

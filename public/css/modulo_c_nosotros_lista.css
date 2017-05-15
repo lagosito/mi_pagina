@@ -1,0 +1,57 @@
+#container-modulo_c_nosotros_lista{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_c_nosotros_lista .contenido{
+    margin-bottom: 160px;
+    margin-top: 160px;
+}
+#container-modulo_c_nosotros_lista .titulo{
+    color: #233f88;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#container-modulo_c_nosotros_lista .parrafo{
+    color: #233f88 ;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 16px;
+    padding-bottom: 40px;
+    white-space: pre-line;
+}
+
+#container-modulo_c_nosotros_lista .listado-beneficios li{
+    color: white;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    line-height: 16px;
+    padding-bottom: 20px;
+    list-style-type:  square;
+    list-style-image: url("../img/icon-lista.png");
+}
+@media (max-width: 767px){
+    #container-modulo_c_nosotros_lista .contenido{
+    }
+}
+@media (max-width: 400px) and (min-width: 271px){
+    #container-modulo_c_nosotros_lista .titulo{
+        font-size: 18px;
+    }
+    #container-modulo_c_nosotros_lista .parrafo{
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 270px){
+    #container-modulo_c_nosotros_lista .titulo{
+        font-size: 14px;
+    }
+    #container-modulo_c_nosotros_lista .parrafo{
+        font-size: 12px;
+    }
+
+}

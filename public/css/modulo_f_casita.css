@@ -1,0 +1,197 @@
+
+
+#container-modulo_f_casita{
+    margin: 0;
+    width: 100%;
+}
+
+#container-modulo_f_casita .container{
+    padding: 6% 0 0 0;
+    width: 100%;
+    background-color: #D25A2A;
+
+}
+#container-modulo_f_casita .youtube-container{
+    border: 10px solid #FFFFFF;
+    margin-top: 30px;
+
+}
+#container-modulo_f_casita .imagen{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#container-modulo_f_casita .titulo{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-family: 'ReneBiederBold', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    height: 60px;
+}
+#container-modulo_f_casita .subtitulo{
+   line-height: 25px;
+    letter-spacing: 0;
+    font-family: 'ReneBiederBold', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+#container-modulo_f_casita .parrafo-titulo{
+    line-height: 25px;
+    letter-spacing: 0;
+    font-family: 'ReneBiederClassic', sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+    width: 75%;
+    white-space: pre-line;
+}
+#container-modulo_f_casita .parrafo{
+    line-height: 15px;
+    font-family: 'ReneBiederClassic', sans-serif;
+    font-size: 11px;
+    white-space: pre-line;
+    margin-top: -15px;
+}
+#container-modulo_f_casita .inputtam{
+    width: 100%;
+    height: 35px;
+    color:black;
+    font-size: 14px;
+    border:none;
+    padding-left: 15px;
+    font-family: 'ReneBiederClassic', sans-serif;
+}
+#container-modulo_f_casita .input-casita{
+    height: 45px;
+
+}
+#container-modulo_f_casita .textarea-casita{
+    height: 90px;
+}
+#container-modulo_f_casita .caja-btn-enviar{
+    height: 90px;
+}
+
+#container-modulo_f_casita .taminput{
+    width: 100%;
+    height: 70px;
+    color:black;
+    font-size: 14px;
+    border: none;
+    font-family: 'ReneBiederClassic', sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+#container-modulo_f_casita .formulario-casitas div{
+    padding: 0;
+}
+#container-modulo_f_casita .btnenviar{
+    width:100%;
+    margin-top: 35px;
+    height: 35px;
+    background-color:#000000;
+    color:white;
+    font-size: 14px;
+    border: none;
+    font-family: 'ReneBiederBold', sans-serif;
+}
+
+#container-modulo_f_casita .colorhr {
+    margin-top: 70px;
+    background-color: black;
+    height: 1px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+#container-modulo_f_casita .piepagina {
+    background-color: white;
+    margin-top: 70px;
+    padding: 3% 0 3% 0;
+    float: left;
+    width: 100%;
+}
+#container-modulo_f_casita .playsimbol {
+    color: white  !important ;
+    font-size: 40px;
+    border-radius: 50px;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #7d7d7d;
+    padding-left: 35px;
+}
+
+#container-modulo_f_casita .contacto {
+    padding-left:50px;
+    padding-top:10px;
+    text-align: left;
+}
+#container-modulo_f_casita .logopie{
+    text-align: right;
+    padding-top:25px;
+    padding-right:50px;
+}
+#container-modulo_f_casita .formulario-casitas{
+    padding-left: 40px;
+    padding-right: 22%;
+}
+#container-modulo_f_casita .telefono{
+    padding-right: 4px;
+}
+@media (max-width: 767px) {
+    #container-modulo_f_casita .logopie{
+        text-align: center;
+        padding-right:0;
+    }
+    #container-modulo_f_casita .contacto {
+        padding-left:0;
+        padding-top:10px;
+        text-align: center;
+    }
+    #container-modulo_f_casita .formulario-casitas{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #container-modulo_f_casita .telefono{
+        padding-right: 0;
+    }
+}
+@media (min-width: 768px) {
+    #container-modulo_f_casita .imagen1{
+        float: right!important;
+    }
+}
+
+@media (max-width: 352px) {
+    #container-modulo_f_casita .titulo{
+        height: 100px;
+    }
+    #container-modulo_f_casita .playsimbol {
+        font-size: 40px;
+        line-height: 72px;
+        height: 72px;
+        width: 72px;
+        padding-left: 25px;
+    }
+}
+@media (max-width: 991px) {
+    #container-modulo_f_casita .btnenviar{
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    #container-modulo_f_casita .caja-btn-enviar{
+        padding-left: 8px!important;
+    }
+}
+@media (max-width: 680px) {
+    #container-modulo_f_casita .parrafo-titulo {
+        margin-left: 5%;
+    }
+
+    #container-modulo_f_casita .titulo {
+        margin-left: 5%;
+    }
+}

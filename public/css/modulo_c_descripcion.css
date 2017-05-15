@@ -1,0 +1,22 @@
+#container-modulo_c_descripcion{
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+#container-modulo_c_descripcion .titulo{
+    line-height: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+#container-modulo_c_descripcion .parrafo{
+    line-height: 24px;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    text-align: center;
+}
+#container-modulo_c_descripcion .contenido{
+    padding: 40px 10%;
+}
+#container-modulo_c_descripcion .fila{
+    padding: 5% 5%;
+}

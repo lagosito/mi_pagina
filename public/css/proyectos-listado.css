@@ -1,0 +1,278 @@
+.action-proyectos{
+    float: right;
+}
+
+.thumbnail{
+    padding: 0;
+}
+.thumbnail:hover{
+    box-shadow: 0 0 30px 0 #a3a3a3;
+    text-decoration: none!important;
+}
+.item-pry a{
+    text-decoration: none!important;
+}
+.cliente-nombre a{
+    text-transform: uppercase;
+    color: grey!important;
+}
+.proyecto-nombre a{
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+}
+.pry{
+    text-transform: uppercase;
+    color: grey!important;
+}
+.estado-pry{
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+}
+.btn-openfile-thumbnail {
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    right:40px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 1);
+    border:1px solid white!important;
+}
+
+.btn-openfile-thumbnail input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+
+}
+.btn-save-thumbnail{
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid white!important;
+}
+.thumb-img{
+    position: relative;
+}
+.thumb-hover{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*width: 55px;
+    height: 50px;*/
+    right: 0;
+    bottom: 0;
+}
+.thumb-hover:hover{
+    opacity: 1;
+}
+.thumb-hover:hover img{
+    opacity: 0.5;
+}
+.editar-thumbnail{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    /*right: 20px;
+    bottom: 20px;/*/
+    right: 8px;
+    bottom: 17px;
+    text-decoration: none;
+
+}
+.editar-thumbnail{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    right: 8px;
+    bottom: 17px;
+    text-decoration: none;
+}
+.editar-thumbnail:hover{
+    text-decoration: none;
+    color: black;
+}
+.texto-new-pry{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 194px;
+    height: 100px;
+    margin-top: -60px;
+    margin-left: -97px;
+}
+.crear-pry-texto{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.add-pry{
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+#editarDatosProyecto .nav-tabs.nav-justified>li.active{
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid blue;
+}
+#editarDatosProyecto .nav-tabs.nav-justified>li.active a{
+    border: 0;
+    color: black;
+    font-weight: bold;
+}
+#editarDatosProyecto .nav-tabs.nav-justified>li > a{
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 15px;
+    color: #c0c0c0;
+    font-weight: bold;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #editarDatosProyecto .nav-tabs.nav-justified>li > a {
+        font-size: 12px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (min-width: 1280px){
+    #editarDatosProyecto .nav-tabs.nav-justified>li > a {
+        font-size: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+#editarDatosProyecto .nav-tabs.nav-justified>li > a:hover{
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: black;
+}
+#editarDatosProyecto .url-prototipo{
+    width: 100%;
+    border-radius: 50px!important;
+    height: 40px;
+    border: 0;
+    background: #dfdfdf;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#editarDatosProyecto .btn-copy{
+    width: 100%;
+    border-radius: 50px!important;
+    height: 40px;
+    border: 0;
+    background: #00d061;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#editarDatosProyecto .tab-pane{
+    padding-bottom: 25px;
+}
+#editarDatosProyecto .input-editpry, .select-modaledit{
+    width: 100%;
+    border-radius: 50px!important;
+    -webkit-border-radius: 50px!important;
+    -moz-border-radius: 50px!important;;
+    height: 40px;
+    border: 0!important;
+    background: #dfdfdf!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    margin-bottom: 0;
+}
+#editarDatosProyecto .select-modaledit{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    background: url('../img/icon-arrow-down.png')no-repeat 99% 0 #dfdfdf !important;
+
+}
+#editarDatosProyecto .textarea-editpry{
+    width: 100%;
+    border-radius: 25px!important;
+    border: 0!important;
+    background: #dfdfdf!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    margin-bottom: 0;
+    height: 100px;
+}
+#editarDatosProyecto .input-editpry:focus{
+    border: 0
+
+}
+#editarDatosProyecto .btn-guardar-modaledit{
+    width: 100%;
+    border-radius: 50px!important;
+    height: 40px;
+    border: 0;
+    background: #00d061;
+    color: white;
+    font-weight: bold;
+}
+#editarDatosProyecto .btn-eliminar-modaledit{
+    width: 100%;
+    border-radius: 50px!important;
+    height: 40px;
+    border: 0;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: #dfdfdf;
+    color:grey;
+}
+#editarDatosProyecto .ver-mas-modaledit{
+    color: blue;
+    text-decoration: underline ;
+}
+#editarDatosProyecto .titulo-section{
+    font-weight: bold;
+    text-align: center;
+}
+#editarDatosProyecto .link-campo{
+    position: absolute;
+    right: 15px;
+    top:0;
+    font-size: 20px;
+    color:grey;
+}
+#editarDatosProyecto .form-md-line-input{
+    padding: 0 15px 0 15px;
+    margin-bottom: 25px;
+}
+#editarDatosProyecto .form-md-line-input span{
+    padding-left: 20px;
+}
+#editarDatosProyecto .prototipo-text{
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+#editarDatosProyecto .prototipo-parrafo{
+    padding-left: 15px;
+}

@@ -1,0 +1,47 @@
+#container-modulo_c_nosotros{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_c_nosotros .contenido{
+    margin-bottom: 160px;
+    margin-top: 160px;
+}
+#container-modulo_c_nosotros .titulo{
+    color: #233f88;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#container-modulo_c_nosotros .parrafo{
+    color: #233f88 ;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 16px;
+    white-space: pre-line;
+}
+
+@media (max-width: 767px){
+    #container-modulo_c_nosotros .contenido{
+    }
+}
+@media (max-width: 400px) and (min-width: 271px){
+    #container-modulo_c_nosotros .titulo{
+        font-size: 18px;
+    }
+    #container-modulo_c_nosotros .parrafo{
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 270px){
+    #container-modulo_c_nosotros .titulo{
+        font-size: 14px;
+    }
+    #container-modulo_c_nosotros .parrafo{
+        font-size: 12px;
+    }
+
+}

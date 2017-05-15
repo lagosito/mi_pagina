@@ -1,0 +1,567 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo_h3{
+    background-color: #372d36;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+#container-modulo_h3 .menu-section{
+    min-height: 100px;
+    float: left;
+    height: 70px;
+    z-index: 10;
+    width: 100%;
+}
+#container-modulo_h3 .marca{
+    float:left;
+    font-size: 40px;
+    text-transform: full-width;
+    font-weight: bold;
+    padding-left:30px;
+    line-height: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#container-modulo_h3 .logo{
+    max-width: 300px;
+    max-height: 100px;
+}
+#container-modulo_h3 .padleft0{
+    padding-left: 0!important;
+}
+#container-modulo_h3 .padright0{
+    padding-right: 0!important;
+}
+#container-modulo_h3 .cabecera{
+    /*padding-top: 2%;
+    padding-bottom: 2%;*/
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 12;
+}
+#container-modulo_h3 .ultext{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#container-modulo_h3 ul{
+    padding-right: 3%;
+}
+#container-modulo_h3 .navbar-nav li a {
+    line-height: 100px;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+#container-modulo_h3 .navbar-nav li a:hover {
+    color: #000000;
+    background: none;
+}
+#container-modulo_h3 .navbar-nav li a:focus {
+    background: none;
+}
+#container-modulo_h3 .navbar-nav li a:active {
+    background: none;
+}
+#container-modulo_h3 .contenido{
+    vertical-align: middle;
+    /*min-height: 100%;
+    height: 100%;*/
+    padding-right: 20%;
+    padding-left: 20%;
+   margin-top: 25%;
+}
+#container-modulo_h3 .titulo{
+    font-size: 70px;
+    text-transform: full-width;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#container-modulo_h3 .parrafo{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 40px;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 20px;
+    margin-top: 15px;
+}
+#container-modulo_h3 .subtitulo{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#container-modulo_h3 .social {
+    float: right;
+}
+#container-modulo_h3 .imagenfondo{
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+#container-modulo_h3 .social [class*="fa fa-"] {
+    background-color: transparent;
+    border-radius: 20px!important;
+    display: inline-block;
+    height: 40px;
+    margin: auto 4px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 9px;
+}
+#container-modulo_h3 .social [class*="fa fa-"]:hover {
+    background-color: transparent;
+    color: black;
+    text-decoration:none;
+}
+#container-modulo_h3 .social-header-right{
+    float: right;
+}
+
+#container-modulo_h3 .botonlink{
+    margin-bottom: 120px;
+}
+
+#container-modulo_h3 .espacio{
+    /*background-color: white;*/
+}#container-modulo_h3 .height100vh{
+    height: 100vh;
+
+}
+#container-modulo_h3 #cycler{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+     
+}
+#container-modulo_h3 #cycler .imagenfondo{
+     z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#container-modulo_h3 .imagenfondo{
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+#container-modulo_h3 #cycler .imagenfondo.active{
+    z-index:3; width: 100%; height: 100%;
+}
+#container-modulo_h3 .linkareferencia{
+    height: auto;
+    color: black;
+    background-color: grey;
+    padding: 10px 15px 10px 15px;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+#container-modulo_h3 .linkareferencia:hover{
+    cursor: pointer;
+}
+#container-modulo_h3 .puntitos{
+    position: absolute;
+    bottom: 20px;
+    color:#fff;
+    z-index: 9999;
+}
+@media (max-width: 767px) {
+    #container-modulo_h3 #bs-navbar {
+        padding: 0;
+        -webkit-transition: none;
+        transition: none;
+    }
+    #container-modulo_h3 .navbar-nav > li > a {
+        padding: 0;
+    }
+    #container-modulo_h3 .navbar-nav {
+        margin-top: 15px!important;
+    }
+    
+    #container-modulo_h3 .height100vh{
+        height: 500px;
+    }
+     #container-modulo_h3 .contenido{
+        margin-top: 200px;
+    }
+}
+@media (min-width: 768px) {
+
+    #container-modulo_h3 .navbar-nav > li > a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #container-modulo_h3 .espacio {
+        height: 30px;
+    }
+    #container-modulo_h3 .espaciobajo {
+        height: 125px;
+    }
+    #container-modulo_h3 .menu-toggle {
+        padding-top: 30px;
+    }
+    #container-modulo_h3 .navbar-brand  {
+        height: 100px;
+    }
+    #container-modulo_h3 .marginright-social {
+    margin-right: 90px;
+    }
+}
+@media (max-width: 259px) {
+    #container-modulo_h3 .menu-section{
+        min-height: 80px;
+    }
+    #container-modulo_h3 .marca {
+        font-size: 25px;
+        padding-left:30px;
+        line-height: 50px;
+        margin-top: 7px;
+    }
+    #container-modulo_h3 .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 0;
+        padding: 9px 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    #container-modulo_h3 .contenido {
+        vertical-align: middle;
+        margin-top: 200px;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    #container-modulo_h3 .titulo {
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #container-modulo_h3 .parrafo {
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    #container-modulo_h3 .subtitulo {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_h3 .piebottom {
+        height: 20px;
+    }
+    #container-modulo_h3 .social {
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #container-modulo_h3 .logo{
+        width: 100px;
+        max-height: 75px;
+    }
+    #container-modulo_h3 .linkareferencia{
+        height: 40px;
+        padding: 15px 40px 15px 40px;
+        width: 150px;
+        font-size: 10px;
+    }
+    #container-modulo_h3 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo_h3 .espacio {
+        height: 15px;
+    }
+    #container-modulo_h3 .menu-toggle {
+        padding-top: 15px;
+    }
+    #container-modulo_h3 .botonlink {
+        margin-bottom: 80px;
+    }
+
+}
+@media (max-width: 360px) and (min-width: 260px) {
+    #container-modulo_h3 .menu-section{
+        min-height: 80px;
+    }
+    #container-modulo_h3 .marca {
+        font-size: 30px;
+        padding-left:30px;
+        line-height: 50px;
+        margin-top: 7px;
+    }
+    #container-modulo_h3 .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 0;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    #container-modulo_h3 .contenido {
+        vertical-align: middle;
+        margin-top: 200px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #container-modulo_h3 .titulo {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #container-modulo_h3 .parrafo {
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    #container-modulo_h3 .subtitulo {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_h3 .piebottom {
+        height: 20px;
+    }
+    #container-modulo_h3 .social {
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #container-modulo_h3 .logo{
+        max-width: 160px;
+        max-height: 75px;
+    }
+    #container-modulo_h3 .linkareferencia{
+        height: 40px;
+        padding: 15px 40px 15px 40px;
+        width: 200px;
+        font-size: 13px;
+    }
+    #container-modulo_h3 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo_h3 .espacio {
+        height: 15px;
+    }
+    #container-modulo_h3 .menu-toggle {
+        padding-top: 15px;
+    }
+    #container-modulo_h3 .botonlink {
+        margin-bottom: 80px;
+    }
+
+}
+@media (max-width: 500px) and (min-width: 361px) {
+    #container-modulo_h3 .menu-section{
+        min-height: 80px;
+    }
+    #container-modulo_h3 .marca {
+        font-size: 30px;
+        padding-left:60px;
+        line-height: 50px;
+        margin-top: 8px;
+    }
+    #container-modulo_h3 .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 0;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    #container-modulo_h3 .contenido {
+        vertical-align: middle;
+        margin-top: 200px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #container-modulo_h3 .titulo {
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #container-modulo_h3 .parrafo {
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    #container-modulo_h3 .subtitulo {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_h3 .piebottom {
+        height: 20px;
+    }
+    #container-modulo_h3 .social {
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #container-modulo_h3 .logo{
+        max-width: 160px;
+        max-height: 75px;
+    }
+    #container-modulo_h3 .linkareferencia{
+        height: 40px;
+        padding: 15px 40px 15px 40px;
+        width: 200px;
+        font-size: 13px;
+    }
+    #container-modulo_h3 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo_h3 .espacio {
+        height: 15px;
+    }
+    #container-modulo_h3 .menu-toggle {
+        padding-top: 15px;
+    }
+    #container-modulo_h3 .botonlink {
+        margin-bottom: 80px;
+    }
+
+}
+@media (max-width: 767px) and (min-width: 501px){
+    #container-modulo_h3 .menu-section{
+        min-height: 80px;
+    }
+    #container-modulo_h3 .marca {
+        font-size: 30px;
+        padding-left:60px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+    #container-modulo_h3 .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 0;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    #container-modulo_h3 .contenido {
+        vertical-align: middle;
+        margin-top: 200px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #container-modulo_h3 .titulo {
+        font-size: 45px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #container-modulo_h3 .parrafo {
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    #container-modulo_h3 .subtitulo {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_h3 .piebottom {
+        height: 20px;
+    }
+    #container-modulo_h3 .social {
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #container-modulo_h3 .logo{
+        max-width: 160px;
+        max-height: 75px;
+    }
+    #container-modulo_h3 .linkareferencia{
+        height: 40px;
+        padding: 15px 60px 15px 60px;
+        width: 250px;
+        font-size: 10pt;
+    }
+    #container-modulo_h3 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo_h3 .espacio {
+        height: 15px;
+    }
+    #container-modulo_h3 .menu-toggle {
+        padding-top: 15px;
+    }
+    #container-modulo_h3 .botonlink {
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 992px) and  (min-width: 768px){
+    #container-modulo_h3 .contenido {
+        vertical-align: middle;
+        margin-top: 15%;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    #container-modulo_h3 .titulo {
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    #container-modulo_h3 .parrafo {
+        font-size: 15px;
+        margin-right: 0;
+        margin-bottom: 50px;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    #container-modulo_h3 .subtitulo{
+        font-size: 18px;
+    }
+    #container-modulo_h3 .social {
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #container-modulo_h3 .logo{
+        max-width: 250px;
+        max-height: 100px;
+    }
+    #container-modulo_h3 .linkareferencia{
+        height: 40px;
+        padding-top: 15px;
+        width: 250px;
+        font-size: 10pt;
+    }
+    #container-modulo_h3 .navbar-nav li a {
+        line-height: 50px;
+    }
+    #container-modulo_h3 .marca {
+        line-height: 100px;
+    }
+
+}

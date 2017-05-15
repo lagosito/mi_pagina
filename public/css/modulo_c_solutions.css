@@ -1,0 +1,228 @@
+#container-modulo_c_solutions{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_c_solutions .contenido{
+    margin-top: 5%;
+}
+#container-modulo_c_solutions .titulo{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top:50px
+ }
+#container-modulo_c_solutions .titulo-curso{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 25px;
+    width: 60%;
+}
+#container-modulo_c_solutions .curso-contenido{
+    padding: 0 8% 40px 8%;
+}
+#container-modulo_c_solutions .curso-box{
+    padding: 0 8% 30px 8%;
+    position: relative;
+
+}
+#container-modulo_c_solutions .rayita{
+    position: absolute;
+    bottom: 40px;
+}
+#container-modulo_c_solutions .curso-img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#container-modulo_c_solutions .texto-curso{
+    color: white;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+#container-modulo_c_solutions .titulo-servicio{
+    color: #233f88;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top:50px
+}
+#container-modulo_c_solutions .intro-servicios{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: justify;
+    padding-bottom: 50px;
+    line-height: 16px;
+}
+#container-modulo_c_solutions .titulo-docs{
+    color: #233f88;
+    font-size: 18px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: center;
+    line-height: 35px;
+}
+#container-modulo_c_solutions .titulo-docs.active{
+    background-color: #233f88;
+    color: white;
+    padding: 8px 30px 8px 30px;
+    text-decoration: none;
+}
+#container-modulo_c_solutions .titulo-docs:focus{
+    text-decoration: none;
+}
+#container-modulo_c_solutions .titulo-docs:hover{
+    background-color: #233f88;
+    color: white;
+    padding: 8px 30px 8px 30px;
+    text-decoration: none;
+}
+#container-modulo_c_solutions .docs{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#container-modulo_c_solutions .btn-download-pdf{
+    border: 2px solid #233f88;
+    color: #fff;
+    background-color: #233f88;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+}
+#container-modulo_c_solutions .parrafo{
+    color: white;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: center;
+}
+#container-modulo_c_solutions .linea-servicio{
+    /*opacity: 0.8;
+    background-color: #003377;*/
+    background-color: rgba(35,63,136,.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#container-modulo_c_solutions .obj-link{
+    background: #233f88;
+    height: 180px;
+    width: 180px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-radius: 50%;
+}
+
+#container-modulo_c_solutions .link{
+    text-align: center;
+    height: 180px;
+    padding-left: 18%;
+}
+
+#container-modulo_c_solutions .link img{
+    margin-bottom: 5px;
+}
+#container-modulo_c_solutions .iconos-link{
+    margin-bottom: 50px;
+}
+#container-modulo_c_solutions .titulo-link{
+    color: white;
+    font-size: 16px;
+    font-family: 'ClanPro-News', sans-serif!important;
+    text-align: center;
+}
+
+#container-modulo_c_solutions .titulo-link-linea{
+    color: #233f88;
+    font-size: 16px;
+    font-family: 'ClanPro-News', sans-serif!important;
+    text-align: center;
+}
+#container-modulo_c_solutions .titulo-link-linea.activo{
+    color: #FFFFFF ;
+    font-weight: bold;
+}
+#container-modulo_c_solutions .nav-justified{
+    border-collapse:separate;
+    border-spacing:15px;
+}
+#container-modulo_c_solutions .obj-linea, .obj-linea-edit{
+    padding: 15px;
+    text-align: center;
+}
+#container-modulo_c_solutions .iconos-link>li>a{
+    background-color: transparent!important;
+}
+#container-modulo_c_solutions .iconos-link>li>a:hover{
+    background: none!important;
+}
+#container-modulo_c_solutions .categ-linea, .categ-linea-edit{
+    margin-left:15px;
+    margin-right: 15px;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+}
+#container-modulo_c_solutions .categ-linea:hover, .categ-linea-edit:hover{
+    background-color: lightgrey;
+}
+#container-modulo_c_solutions .obj-linea:hover, .obj-linea-edit:hover{
+    background-color: lightgrey;
+}
+#container-modulo_c_solutions .obj-linea.activo{
+    background-color: #233f88;
+}
+#container-modulo_c_solutions .iconos-linea{
+    margin-bottom: 50px;
+}
+
+#container-modulo_c_solutions .categ-linea.active{
+    background-color:  #233f88;
+}
+#container-modulo_c_solutions .categ-linea.active a{
+    background-color:  transparent;
+}
+#container-modulo_c_solutions .categ-linea.active .titulo-link-linea{
+    color:white;
+}
+#container-modulo_c_solutions .nav-tabs {
+    border: 0;
+}
+#container-modulo_c_solutions .nav-justified>li>a{
+    border: 0;
+    border-radius: 0;
+}
+#container-modulo_c_solutions .categ-negocio.active .obj-link{
+    background-color: white;
+}
+#container-modulo_c_solutions .categ-negocio.active .titulo-link{
+    color: #233f88;
+}
+
+@media (max-width: 767px){
+    #container-modulo_c_solutions .categ-negocio{
+        margin-bottom: 15px;
+    }
+    #container-modulo_c_solutions .contenido{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 270px){
+    #container-modulo_c_solutions .titulo{
+        font-size: 20px;
+    }
+    #container-modulo_c_solutions .parrafo{
+        font-size: 15px;
+    }
+    #container-modulo_c_solutions .obj-link {
+        height: 150px;
+        width: 150px;
+    }
+    #container-modulo_c_solutions .iconos-link{
+        padding: 0;
+    }
+}

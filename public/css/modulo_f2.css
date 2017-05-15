@@ -1,0 +1,268 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo_f2{
+    background-color: #4c4a4b;
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_f2 .container{
+    width: 100% !important;
+    padding: 0 !important;
+    padding-top: 5% !important;
+}
+#container-modulo_f2 .social [class*="fa fa-"] {
+    background-color: transparent;
+    border-radius: 60px!important;
+    color: #a9a9a9;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin: auto 6px;
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+#container-modulo_f2 .social [class*="fa fa-"]:hover {
+    background-color: #c1bfc0;
+    text-decoration:none;
+}
+#container-modulo_f2 .social {
+}
+#container-modulo_f2 .cuerpo{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0 !important;
+    text-align: right;
+    padding-top: 2%;
+    margin-right: 0;
+}
+#container-modulo_f2 .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+}
+
+#container-modulo_f2 .navbar .navbar-collapse {
+    text-align: center;
+}
+#container-modulo_f2 .piecabecera{
+    /*padding-left:3%;
+    padding-right: 10%;*/
+    background-color: transparent;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+#container-modulo_f2 .logo{
+    padding-right: 0;
+    padding-top: 14%;
+    margin-bottom: 5%;
+}
+#container-modulo_f2 .logo img{
+    width: 200px;
+}
+#container-modulo_f2 .ultext{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#container-modulo_f2 ul a{
+    color: white;
+    font-size: 18px;
+}
+#container-modulo_f2 .contenido{
+    vertical-align: middle;
+    margin-top:120px;
+    min-height: 100%;
+    height: 100%;
+
+}
+#container-modulo_f2 .navbar-header [class*="icon-bar"] {
+    background-color: white;
+
+}
+#container-modulo_f2 .footer{
+    margin: 0 auto;
+    color: #a9a9a9;
+    padding-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+#container-modulo_f2 .linkssection{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+#container-modulo_f2 .navbar-nav > li > a:hover {
+    background-color: #c1bfc0;
+}
+#container-modulo_f2 .contacttitulo {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+#container-modulo_f2 .telefono {
+    color: white;
+}
+#container-modulo_f2 .contactdatos {
+    color: #a9a9a9;
+}
+
+@media (max-width: 239px) {
+
+    #container-modulo_f2 .logo{
+        padding-right: 0;
+        width: 100px;
+        height: 40px;
+        padding-left: 25%;
+    }
+    #container-modulo_f2 .logo img{
+        padding-top: 20px;
+    }
+    #container-modulo_f2 .cuerpo{
+        text-align: center;
+    }
+    #container-modulo_f2 .piecabecera{
+        display: none!important;
+    }
+    #container-modulo_f2 .social [class*="fa fa-"] {
+        background-color: transparent;
+        border-radius: 30px!important;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin: auto 3px;
+        width: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #container-modulo_f2 .footer{
+        text-align: center;
+        padding-bottom: 5%;
+        font-size: 10px;
+        padding-top: 200px;
+    }
+}
+@media (max-width: 319px) and (min-width: 240px) {
+
+    #container-modulo_f2 .logo{
+        padding-right: 0;
+        width: 120px;
+        height: 50px;
+        margin: 5% auto 10%;
+    }
+    #container-modulo_f2 .logo img{
+        padding-top: 20px;
+    }
+    #container-modulo_f2 .footer{
+        text-align: center;
+        padding-bottom: 5%;
+        font-size: 10px;
+        padding-top: 200px;
+    }
+    #container-modulo_f2 .cuerpo{
+        text-align: center;
+    }
+
+    #container-modulo_f2 .piecabecera{
+        display: none!important;
+    }
+    #container-modulo_f2 .social [class*="fa fa-"] {
+        background-color: transparent;
+        border-radius: 40px!important;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        margin: auto 4px;
+        width: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+@media (max-width: 500px) and (min-width: 320px){
+
+    #container-modulo_f2 .footer{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    #container-modulo_f2 .cuerpo{
+        text-align: center;
+    }
+    #container-modulo_f2 .logo img{
+        padding-top: 60px;
+    }
+    #container-modulo_f2 .piecabecera{
+        display: none!important;
+    }
+}
+@media (max-width: 767px) and (min-width: 501px){
+    #container-modulo_f2 .footer{
+        padding-bottom: 5%;
+        padding-top: 5%;
+        font-size: 13px;
+    }
+    #container-modulo_f2 .cuerpo{
+        text-align: center;
+    }
+    #container-modulo_f2 .logo img{
+        padding-top: 60px;
+    }
+    #container-modulo_f2 .piecabecera{
+        display: none!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1048px){
+    #container-modulo_f2 .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+    #container-modulo_f2 .navbar-nav > li > a {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_f2 .ultext {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_f2 .cuerpo {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    #container-modulo_f2 .logo img{
+        padding-top: 60px;
+    }
+    #container-modulo_f2 .footer{
+        padding-bottom: 5%;
+        padding-top: 5%;
+        font-size: 13px;
+    }
+}
+@media (min-width: 1049px){
+    #container-modulo_f2 .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+    #container-modulo_f2 .navbar-nav > li > a {
+        text-align: center;
+        font-size: 15px;
+    }
+    #container-modulo_f2 .ultext {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+

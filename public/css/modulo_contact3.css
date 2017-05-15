@@ -1,0 +1,168 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo_contact3{
+    background-color: #282627;
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_contact3 .container{
+    width: 100% !important;
+    padding: 0 !important;
+    padding-top: 5% !important;
+}
+#container-modulo_contact3 .titulo{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+#container-modulo_contact3 .parrafo{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#container-modulo_contact3 .encabezado{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#container-modulo_contact3 .labelcontacto{
+    color: #a9a9a9;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+#container-modulo_contact3 .textnormal{
+    color: #474656 ;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 13px;
+}
+#container-modulo_contact3 input{
+    border-radius: 20px;
+    border: 0;
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+}
+#container-modulo_contact3 textarea{
+    border-radius: 12px;
+    border: 0;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    min-height: 100px;
+}
+#container-modulo_contact3 .checkbox input{
+    background-color: transparent!important;
+}
+#container-modulo_contact3 .formulariocontacto{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#container-modulo_contact3 .enviarformcontacto{
+    border-radius: 40px;
+    border: 0;
+    padding: 17px 20px 17px 20px;
+    margin-top: 50px;
+    width: 300px;
+    background-color: #fc7411;
+    color: #fff;
+    font-size: 17px;
+}
+@media (max-width: 260px){
+    #container-modulo_contact3 .encabezado{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #container-modulo_contact3 .formulariocontacto{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    #container-modulo_contact3 .enviarformcontacto{
+        border-radius: 40px;
+        border: 0;
+        padding: 17px 20px 17px 20px;
+        margin-top: 0;
+        width: 100%;
+        background-color: #fc7411;
+        color: #fff;
+        font-size: 12px;
+    }
+    #container-modulo_contact3 .titulo{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    #container-modulo_contact3 .parrafo{
+        font-size: 12px;
+    }
+}
+@media (max-width: 364px) and (min-width: 261px){
+    #container-modulo_contact3 .encabezado{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #container-modulo_contact3 .formulariocontacto{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    #container-modulo_contact3 .enviarformcontacto{
+        border-radius: 40px;
+        border: 0;
+        padding: 17px 20px 17px 20px;
+        margin-top: 0;
+        width: 100%;
+        background-color: #fc7411;
+        color: #fff;
+        font-size: 14px;
+    }
+    #container-modulo_contact3 .titulo{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    #container-modulo_contact3 .parrafo{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) and (min-width: 365px){
+    #container-modulo_contact3 .encabezado{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #container-modulo_contact3 .formulariocontacto{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    #container-modulo_contact3 .enviarformcontacto{
+        border-radius: 40px;
+        border: 0;
+        padding: 17px 20px 17px 20px;
+        margin-top: 0;
+        width: 100%;
+        background-color: #fc7411;
+        color: #fff;
+        font-size: 14px;
+    }
+    #container-modulo_contact3 .titulo{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #container-modulo_contact3 .parrafo{
+        font-size: 14px;
+    }
+}
+@media (max-width: 941px) and (min-width: 769px){
+    #container-modulo_contact3 .encabezado{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #container-modulo_contact3 .formulariocontacto{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

@@ -1,0 +1,52 @@
+#container-modulo_sanfer_us{
+    background-color: #003377;
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_sanfer_us .contenido{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+#container-modulo_sanfer_us .titulo{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: 'ClanPro-Medium', sans-serif!important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#container-modulo_sanfer_us .parrafo{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: left;
+    line-height: 16px;
+    white-space: pre-line;
+}
+#container-modulo_sanfer_us .btn-mas{
+    margin-top: 50px;
+}
+#container-modulo_sanfer_us .btn-ver-mas{
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    color: #233f88;
+    font-size: 14px;
+    font-family: 'ClanPro-Book', sans-serif!important;
+    text-align: center;
+    padding: 8px 30px 8px 30px;
+
+}
+@media (max-width: 767px) {
+    #container-modulo_sanfer_us .contenido{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 270px){
+    #container-modulo_sanfer_us .titulo{
+        font-size: 20px;
+    }
+    #container-modulo_sanfer_us .parrafo{
+        font-size: 15px;
+    }
+}

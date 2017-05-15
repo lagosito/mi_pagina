@@ -1,0 +1,30 @@
+#container-modulo_c_infogeneral{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo_c_infogeneral .container{
+    width: 100% !important;
+    padding: 0 !important;
+
+}
+#container-modulo_c_infogeneral .contenido{
+    padding: 100px 0 100px 0;
+}
+#container-modulo_c_infogeneral .editable-wysihtml5{
+	width: 100%;
+	height: 100%;
+}
+#container-modulo_c_infogeneral br{
+	line-height: 200%;
+}
+#container-modulo_c_infogeneral .titulo{
+	font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+#container-modulo_c_infogeneral .linkareferencia{
+	padding: 10px 15px;
+	color: #333;
+	border-radius: 5px;
+	margin-top: 30px;
+}

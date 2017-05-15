@@ -1,0 +1,27 @@
+//Aireen cambios
+//sanfernando custom
+#container-modulo_sanfer_contact .parasanfer{
+ display:block !important;
+}
+#container-modulo_sanfer_contact .paratodos{
+    display: none !important;
+}
+//custom seminarium
+#container-modulo_h3 .li-Contáctanos{
+    padding-top: 30px;
+}
+#container-modulo_h3 .navbar-nav li .a-Contáctanos{
+    line-height: 40px;
+    background: red;
+}
+#container-modulo_sanfer_alianza .carousel-control img{
+    display:none;
+}
+#container-modulo_sanfer_alianza .carousel-control .flecha{
+    display:block;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 16% !important;
+    }
+}

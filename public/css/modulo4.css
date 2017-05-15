@@ -1,0 +1,123 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo4{
+    margin: 0;
+    width: 100%;
+}
+#container-modulo4 .imagen{
+    align-content: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+#container-modulo4 .imagen img{
+    width: 100%;
+}
+#container-modulo4 .contenido{
+    vertical-align: middle;
+    padding-top:4%;
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+#container-modulo4 .titulo{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    line-height: 25px;
+}
+#container-modulo4 .parrafo{
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+}
+#container-modulo4 .link{
+    font-size: 11px;
+   /* color: #00BFFF ;*/
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4%;
+    text-transform: uppercase;
+}
+#container-modulo4 .subtitulo-custom-color{
+   /* color: #00BFFF;*/
+}
+#container-modulo4 .pienumber{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3%;
+   /* color: #212121;*/
+    margin-top: 3%;
+}
+#container-modulo4 .fila{
+    width: 100%;
+    margin: 0;
+}
+#container-modulo4 .parrafo.changed:after{
+    content: '';
+    background-image: none!important;
+}
+#container-modulo4 .parrafo::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#container-modulo4 .parrafo::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+}
+#container-modulo4 .parrafo::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#container-modulo4 .parrafo::-webkit-scrollbar-track {
+    background: transparent;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+@media (max-width: 992px) and  (min-width: 768px){
+    #container-modulo4 .imagen img{
+        width: 100%;
+        height: auto;
+    }
+    #container-modulo4 .contenido{
+        vertical-align: middle;
+        padding-top:4%;
+        padding-left: 7%;
+        padding-right: 7%;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+}
+@media (max-width: 767px){
+    #container-modulo4 .imagen img{
+        height: auto;
+        width: 100%;
+    }
+    #container-modulo4 .contenido{
+        height: auto;
+        padding-bottom: 5%;
+
+    }
+    #container-modulo4 .parrafo{
+        margin-bottom: 15%;
+    }
+
+}
+@media (min-width: 768px){
+    #container-modulo4 .parrafo{
+        height: 150px;
+        overflow-y: scroll;
+    }
+
+}
+
+

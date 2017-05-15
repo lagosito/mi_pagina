@@ -1,0 +1,102 @@
+.raleway-light {
+    font-family: 'Raleway', sans-serif;
+}
+.fjallaone-regular {
+    font-family: 'Fjalla One', sans-serif;
+}
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.montserrat-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.pt-serif-regular {
+    font-family: 'PT Serif', serif;
+}
+.playfair-regular {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.playfair-bold {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.londrina-regular{
+    font-family: 'Londrina Outline', cursive;
+}
+.alegreya-regular {
+    font-family: 'Alegreya', serif;
+}
+.sacramento-regular {
+    font-family: 'Sacramento', cursive;
+}
+.amatic-sc-regular{
+    font-family: 'Amatic SC', cursive;
+}
+.prata{
+    font-family: 'Prata', serif;
+}
+.leckerli-one-regular{
+    font-family: 'Leckerli One', cursive;
+}
+.lato-light{
+    font-family: 'Lato', sans-serif;
+}
+.quicksand-light{
+    font-family: 'Quicksand', sans-serif;
+}
+@font-face {
+    font-family: 'Cambria';
+    src: url('../fonts/cambria.ttf') format('truetype');
+}
+.cambria-regular{
+    font-family: 'Cambria', sans-serif;;
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url('../fonts/GaramondItalic.ttf') format('truetype');
+}
+.garamond-italic{
+    font-family: 'Garamond', sans-serif;;
+}
+@font-face {
+    font-family: 'Circular Std Bold';
+    src: url('../fonts/CircularStd-Bold.otf') format('opentype');
+}
+.circular-std-bold{
+    font-family: 'Circular Std Bold', sans-serif;
+}
+@font-face {
+    font-family: 'ReneBiederClassic';
+    src: url('../fonts/ReneBiederClassic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'ReneBiederBlack';
+    src: url('../fonts/ReneBiederBlack.otf') format('opentype');
+}
+@font-face {
+    font-family: 'ReneBiederBold';
+    src: url('../fonts/ReneBiederBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../fonts/GilroyExtraBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GilroyLight';
+    src: url('../fonts/GilroyLight.otf') format('opentype');
+}
+@font-face {
+    font-family: 'ClanPro-Book';
+    src: url('../fonts/Clan_Pro/ClanPro-Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'ClanPro-News';
+    src: url('../fonts/Clan_Pro/ClanPro-News.otf') format('opentype');
+}
+@font-face {
+    font-family: 'ClanPro-Medium';
+    src: url('../fonts/Clan_Pro/ClanPro-Medium.otf') format('opentype');
+}

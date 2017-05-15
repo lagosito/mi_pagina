@@ -1,0 +1,110 @@
+.page-content {
+    padding-top: 10px;
+}
+.navbar-nav>li>a, .thumbnail .caption {
+    font-family: 'Montserrat', sans-serif;
+}
+.copyright {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h3.block {
+    text-align: center;
+}
+h3.block { margin-bottom: 10px; margin-top: -15px; }
+.copyright { display: none; }
+.page-header .navbar-fixed-top, body, .page-header .navbar .topbar-actions .btn-group-img .btn,
+.page-header .navbar .navbar-nav>li>a{
+    background: #fff;
+}
+.montserrat-menu ul > li > a{
+    font-family: 'Montserrat', sans-serif!important;
+    font-weight: 700!important;
+    font-size: 18px!important;
+
+}
+.saludo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 5px;
+    color: #7b8084;
+}
+.montserrat-menu{
+    border-top: 1px solid #9a9a9c!important;
+    border-bottom: 1px solid #d9d9d9!important;
+    padding-left: 20px!important;
+    margin-bottom: 15px;
+}
+.montserrat-menu ul > li > a{
+    color: #a8a8a8 !important;
+}
+.montserrat-menu ul > li > a:hover{
+    color: black !important;
+    background: none!important;
+}
+.montserrat-menu ul > li.open a{
+    background-color: transparent!important;
+    color: black!important;
+    border-bottom: 3px solid blue;
+}
+
+.container-fluid{
+    padding: 0;
+}
+.wrapper{
+    margin-left: 0;
+    margin-right: 0;
+}
+.dropdown-menu-v2 {
+    background: #fff;
+    margin: 30px 0 0;
+}
+.page-header .navbar .topbar-actions .btn-group-notification {
+    background: #eee;
+}
+.dropdown-menu-v2:before {
+    top:-10px;right:0;width:0;height:0;content:' ';
+    position:absolute;
+    border: none!important;
+}
+.dropdown-menu-list>li {
+    border-color: #5c7cf3!important;
+    padding: 0!important;
+}
+.dropdown-menu-list>li:hover {
+    background: #5c7cf3!important;
+}
+.dropdown-menu-v2{
+    border: none!important;
+    -moz-border-radius-bottomleft: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    -moz-border-radius-bottomright: 10px!important;
+    background: #eee;
+}
+.dropdown-menu-list>li>a:hover{
+    color: #fff!important;
+    background: #5c7cf3!important;
+}
+.dropdown-menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    margin-right: 0!important;
+}
+.dropdown-menu-list>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    width: 100%;
+    display: block;
+    display: inline-block;
+    padding: 15px 15px 15px 30px;
+    font-family: 'Montserrat', sans-serif!important;
+    color: #333!important;
+}

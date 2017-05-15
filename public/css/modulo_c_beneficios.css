@@ -1,0 +1,83 @@
+#container-modulo_c_beneficios{
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+#container-modulo_c_beneficios .titulo{
+    line-height: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+#container-modulo_c_beneficios .subtitulo{
+    text-align: left;
+}
+#container-modulo_c_beneficios .parrafo{
+    line-height: 24px;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    text-align: left;
+    margin-top: -40px;
+}
+#container-modulo_c_beneficios .imagen img{
+    width: 100%;
+}
+#container-modulo_c_beneficios .textos{
+    padding: 0;
+}
+#container-modulo_c_beneficios .item-box{
+    margin: 15px 0;
+    padding: 20px
+}
+#container-modulo_c_beneficios .par{
+    padding: 0;
+    clear: both;
+}
+#container-modulo_c_beneficios .fila{
+   padding: 100px 0;
+}
+#container-modulo_c_beneficios .editar-item-box{
+   position: absolute;
+    top: 0;
+    color:#fff;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    line-height:100px;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ #container-modulo_c_beneficios .editar-item-box:hover{
+   opacity:1;
+}
+#container-modulo_c_beneficios .editar-item-box-botones{
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    left: 0;
+    top: 0;
+}
+#container-modulo_c_beneficios .editar-item-box-botones span:hover{
+   cursor: pointer;
+}
+@media (max-width: 767px){
+    #container-modulo_c_beneficios .subtitulo{
+    margin-top: 15px;
+    }
+    #container-modulo_c_beneficios .textos{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 991px){
+    #container-modulo_c_beneficios .item-box{
+        margin-bottom: 15px;
+        clear: both;
+    }
+}

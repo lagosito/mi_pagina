@@ -1,0 +1,105 @@
+#container-modulo_c_videoscarousel .contenido-video * {
+  box-sizing: border-box;
+}
+
+#container-modulo_c_videoscarousel .slider {
+    width: 95%;
+    margin: 15px auto;
+}
+#container-modulo_c_videoscarousel .parrafo {
+    white-space: pre-line;
+  }
+#container-modulo_c_videoscarousel .slick-slide {
+  margin: 0px 20px;
+  width: 324px;
+}
+
+#container-modulo_c_videoscarousel .slick-slide img {
+  width: 100%;
+}
+
+#container-modulo_c_videoscarousel .slick-prev:before,
+#container-modulo_c_videoscarousel .slick-next:before {
+    color: black;
+}
+#container-modulo_c_videoscarousel .slickimagen{
+    border:3px solid white;
+}
+#container-modulo_c_videoscarousel .video img{
+    border:3px solid white;
+}
+#container-modulo_c_videoscarousel .playvideo{
+    border:3px solid white;
+}
+#container-modulo_c_videoscarousel .hovervideo {
+    position: absolute;
+    top: 0;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    line-height: 1;
+    padding-top: 10%;
+}
+#container-modulo_c_videoscarousel .hovervideo:hover {
+    opacity:1;
+    cursor: pointer;
+}
+#container-modulo_c_videoscarousel .contenidovideo{
+    background: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 120%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#container-modulo_c_videoscarousel .youtube-container{
+   width: 95%; 
+   padding-top: 3%;
+}
+#container-modulo_c_videoscarousel .imagenfondo{
+    height: 150%;
+}
+#container-modulo_c_videoscarousel .editar-item-video-box-botones{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+#container-modulo_c_videoscarousel .editar-item-video-box-botones span{
+   cursor: pointer;
+}
+#container-modulo_c_videoscarousel .slickimagen{
+    overflow:hidden;
+    z-index:2;
+}
+#container-modulo_c_videoscarousel .slickimagen img{
+    z-index:1;
+    margin-top: -29px;
+    margin-bottom: -29px;
+}
+@media (max-width: 767px){
+    #container-modulo_c_videoscarousel .slick-slide {
+      margin: 0px 20px;
+      width: 150px;
+    }
+     #container-modulo_c_videoscarousel .hovervideo {   
+        line-height: 0.8;
+        padding-top: 2%;
+    }
+     #container-modulo_c_videoscarousel .slickimagen{
+        overflow:hidden;
+        z-index:2;
+    }
+     #container-modulo_c_videoscarousel .slickimagen img{
+        z-index:1;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+}

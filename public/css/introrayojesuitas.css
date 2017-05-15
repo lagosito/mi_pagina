@@ -1,0 +1,127 @@
+
+#container-introrayojesuitas{
+    margin: 0;
+    width: 100%;
+
+}
+#container-introrayojesuitas .img-static{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+#container-introrayojesuitas .imagen{
+    align-content: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+#container-introrayojesuitas .imagen img{
+    width: 100% !important;
+}
+#container-introrayojesuitas .contenido{
+    vertical-align: middle;
+    /*padding-top:7%; con scroll*/
+    padding-top:4%;
+    min-height: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+#container-introrayojesuitas .titulo{
+    font-size: 36px;
+    text-transform: full-width;
+    font-weight: bold;
+    font-family: ReneBiederBold, sans-serif;
+    /*margin-bottom: 8%; con scroll*/
+    margin-bottom: 4%;
+}
+#container-introrayojesuitas .parrafo{
+    font-size: 22px;
+    color: white;
+    letter-spacing: 0px;
+    margin-right: 7%;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    line-height: 28px;
+    margin-top: 20%;
+    font-family: GilroyLight, sans-serif;
+    /*white-space: pre-line;*/
+}
+#container-introrayojesuitas .negrita {
+    font-family: GilroyBold, sans-serif;
+    font-weight: 900;
+}
+#container-introrayojesuitas .resaltado {
+    font-family: GilroyBold, sans-serif;
+    font-weight: 900;
+    color: #c22583;
+}
+#container-introrayojesuitas .subtitulo{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#container-introrayojesuitas .fila{
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-left: 0;
+}
+#container-introrayojesuitas .slider{
+    padding: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: auto;
+}
+#container-introrayojesuitas .imagenSlider{
+    height: auto;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+@media (max-width: 1025px) and  (min-width: 806px){
+    #container-introrayojesuitas .contenido{
+        /*padding-top:7%; con scroll*/
+        padding-top:4%;
+    }
+    #container-introrayojesuitas .parrafo{
+        font-size: 14px;
+        line-height: 20px;
+        /* height: 200px;*/
+    }
+
+
+}
+@media (max-width: 806px) and  (min-width: 768px){
+    #container-introrayojesuitas .contenido{
+        /*padding-top:7%; con scroll*/
+        padding-top:4%;
+    }
+    #container-introrayojesuitas .parrafo{
+        font-size: 13px;
+        line-height: 20px;
+        /*height: 180px;*/
+    }
+
+}
+@media (max-width: 767px) {
+    #container-introrayojesuitas .contenido{
+        padding-top:10%;
+        padding-bottom:5%;
+
+    }
+    #container-introrayojesuitas .parrafo{
+        padding-right: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #container-introrayojesuitas .fila{
+        padding-right: 0;
+    }
+
+}
+
+

@@ -1,0 +1,66 @@
+#container-modulo_f5 .contenido{
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+#container-modulo_f5 .contacto{
+    text-align: left;
+}
+#container-modulo_f5 .footer{
+    text-align:right;
+}
+#container-modulo_f5 .social{
+    text-align: center;
+}
+#container-modulo_f5 .social a{
+    width: 30px;
+    font-size: 18px;
+    color: #333;
+    background-color: white;
+    border-radius: 30px!important;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    text-align: center;
+}
+#container-modulo_f5 .redes-sociales{
+   margin-top: 10px;
+}
+#container-modulo_f5 .logo{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#container-modulo_f5 .develop_by{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#container-modulo_f5 .logo img{
+    width: 100px;
+}
+@media (max-width: 768px){
+    #container-modulo_f5 .contenido{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    }
+    #container-modulo_f5 .contacto{
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    #container-modulo_f5 .footer{
+        text-align:center;
+    }
+}
+@media (max-width: 325px){
+    #container-modulo_f5 .contenido{
+    padding: 50px 0;
+    }
+    #container-modulo_f5 .contacto{
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    #container-modulo_f5 .footer{
+        text-align:center;
+    }
+}

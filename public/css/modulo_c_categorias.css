@@ -1,0 +1,88 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+#container-modulo_c_categorias{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+#container-modulo_c_categorias .container{
+    width: 100% !important;
+    padding: 0 !important;
+}
+#container-modulo_c_categorias .contenido{
+    padding-top:150px;
+    padding-bottom: 150px;
+    position: relative;
+}
+#container-modulo_c_categorias .parallax{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    transform: translateZ(400px);
+    z-index: 15;
+}
+#container-modulo_c_categorias .titulo{
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+#container-modulo_c_categorias .img-item{
+    width: 100%;
+}
+#container-modulo_c_categorias .item{
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+#container-modulo_c_categorias .item-nombre h3{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
+}
+#container-modulo_c_categorias .item-nombre{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#container-modulo_c_categorias .item-nombre:hover{
+    cursor: pointer;
+    color:black;
+    background-color: rgba(210, 210, 210, 0.6);
+}
+
+@media (max-width: 260px){
+    #container-modulo_c_categorias .titulo{
+        font-size: 20px;
+        padding-top: 50px;
+    }
+}
+@media (max-width: 364px) and (min-width: 261px){
+    #container-modulo_c_categorias .titulo{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+}
+@media (max-width: 768px) and (min-width: 365px){
+    #container-modulo_c_categorias .titulo{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+}
